@@ -4,12 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="public/sushi.png" />
+    <link rel="icon" type="image/png" href="/sushi.png" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Sushi-ya</title>
   </head>
   <body>
-    <h1>Sushi-ya</h1>
+    <header>
+      <nav class="header__nav">
+        <!-- Header logo -->
+        <div class="header__logo">
+          <h4>Sushi-ya</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <!-- Header menu for desktop view -->
+        <ul class="header__menu">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <!-- Header menu for mobile view -->
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
